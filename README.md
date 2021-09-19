@@ -12,3 +12,4 @@ npm start
 # Build for production
 npm run build
 ```
+Enter Your Google Id in Frontend (Login Component)
