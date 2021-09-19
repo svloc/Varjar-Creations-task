@@ -1,0 +1,14 @@
+DataBase for todo 
+	  
+ create table register(
+	id int PRIMARY KEY AUTO_INCREMENT,
+      googleId int,
+      email varchar(200),
+      name varchar(200),
+      imageUrl varchar(500) 
+	);
+      create table todo(
+      id int PRIMARY KEY AUTO_INCREMENT,
+      todoname varchar(500),
+      status varchar(100)
+);
