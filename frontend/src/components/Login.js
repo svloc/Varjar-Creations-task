@@ -4,7 +4,7 @@ import { GoogleLogin } from "react-google-login";
 import { ToastContainer, toast } from "react-toastify";
 export default function Login() {
   const clientId =
-    "Your id";
+    "Your google id";
 
   const onLoginSuccess = (res) => {
     console.log(res);
